@@ -84,3 +84,68 @@ img {
 .menu-nav a:hover {
   color: #122ab2;
 }
+
+/*Introducão*/
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+@media (max-width: 400px) {
+  .introducao {
+    font-size: 1.5rem;
+  }
+}
+
+/*Sobre*/
+
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+  flex-wrap: wrap;
+}
+
+.sobre-info h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-info p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+
+@media (max-width: 400px) {
+  .sobre {
+    padding: 30px 0px;
+  }
+  .sobre-info h1 {
+    font-size: 1.5rem;
+  }
+  .sobre-info p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #7c7c7c;
+  }
+}
