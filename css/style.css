@@ -276,6 +276,9 @@ img {
     padding-left: 2px;
     padding-right: 2px;
   }
+  .preco-item a {
+    font-size: 1.5rem;
+  }
   .preco .preco-item:nth-child(3) {
     order: -2;
   }
@@ -397,5 +400,26 @@ img {
   }
   .newsletter-form button {
     font-size: 1.5rem;
+  }
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  padding: 60px 10px;
+  background: #2c70ff;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 3rem;
+  text-align: center;
+  flex: 1;
+  color: #122ab2;
+}
+
+@media (max-width: 800px) {
+  .footer p {
+    font-size: 2rem;
   }
 }
